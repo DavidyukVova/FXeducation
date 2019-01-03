@@ -257,7 +257,10 @@
     max-width: 1580px;
     margin: 0 auto; }
     .section_4 .traiding_instrument_block .widget_block {
-      margin-top: 20px; }
+      margin-top: 20px;
+      width: 100%;
+      max-width: 400px;
+      height: 568px; }
     .section_4 .traiding_instrument_block .items_container .item {
       margin: 50px 0; }
       .section_4 .traiding_instrument_block .items_container .item .img_container {
@@ -299,6 +302,10 @@
         .section_5 .live_data_block .controls_block .btn_control:active, .section_5 .live_data_block .controls_block .btn_control:focus {
           color: #ffffff;
           background-color: #364c4d; }
+    .section_5 .live_data_block .widget_block {
+      width: 100%;
+      max-width: 425px;
+      height: 378px; }
 
 .section_6 {
   width: 100%;
@@ -463,6 +470,53 @@
       margin: 20px auto 0 auto;
       font-family: Roboto, Tahoma, sans-serif;
       font-size: 20px; }
+
+@media (max-width: 1500px) {
+  .section_2 {
+    background-position-x: 250%; }
+    .section_2 .content {
+      margin-left: 40px; } }
+
+@media (max-width: 1420px) {
+  body h2 {
+    font-size: 55px; }
+  .contact_form .sl .title_block h1 {
+    font-size: 70px;
+    max-width: 260px; }
+  .contact_form .sl .title_block h2 {
+    max-width: 685px; }
+  .section_3 .items_container .item {
+    width: 100%;
+    max-width: 350px; }
+    .section_3 .items_container .item .top_content {
+      padding: 45px 10px; } }
+
+@media (max-width: 1226px) {
+  .contact_form .sl .title_block h2 {
+    background-color: inherit; }
+  .section_2 {
+    background-position-x: 400px; } }
+
+@media (max-width: 1200px) {
+  body .btn {
+    font-size: 26px; }
+  .header .menu_block .menu li a {
+    font-size: 20px;
+    margin: 0 15px; } }
+
+@media (max-width: 991px) {
+  .header .menu_block .menu li a {
+    font-size: 18px;
+    margin: 0 10px; } }
+
+@media (max-width: 850px) {
+  .header .logo_block {
+    margin-left: 20px; }
+  .header .menu_block {
+    margin-right: 20px; }
+    .header .menu_block .menu li a {
+      font-size: 18px;
+      margin: 0 8px; } }
 
 body {
   padding: 0;
