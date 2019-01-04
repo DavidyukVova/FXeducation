@@ -305,7 +305,10 @@
     .section_5 .live_data_block .widget_block {
       width: 100%;
       max-width: 425px;
-      height: 378px; }
+      height: 378px;
+      display: none; }
+    .section_5 .live_data_block .active {
+      display: block; }
 
 .section_6 {
   width: 100%;
