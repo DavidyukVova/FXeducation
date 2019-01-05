@@ -122,12 +122,12 @@
       background-image: -o-repeating-linear-gradient(left, #49bc78 0%, #09b2e5 100%);
       background-image: repeating-linear-gradient(to right, #49bc78 0%, #09b2e5 100%);
       background-image: -ms-repeating-linear-gradient(left, #49bc78 0%, #09b2e5 100%); }
-  .contact_form .sl h2 {
-    width: 100%;
-    max-width: 795px;
-    padding: 0 10px;
-    margin: 0;
-    background-color: rgba(193, 193, 193, 0.3); }
+    .contact_form .sl .title_block h2 {
+      width: 100%;
+      max-width: 795px;
+      padding: 0 10px;
+      margin: 0;
+      background-color: rgba(193, 193, 193, 0.3); }
   .contact_form .sl .modal_btn_container {
     display: none;
     width: 100%;
@@ -276,9 +276,13 @@
       max-width: 400px;
       height: 568px; }
     .section_4 .traiding_instrument_block .items_container .item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
       margin: 50px 0; }
       .section_4 .traiding_instrument_block .items_container .item .img_container {
-        float: left;
+        display: inline-block;
         margin-right: 15px; }
       .section_4 .traiding_instrument_block .items_container .item .content_block .title {
         font-family: Roboto-Bold, Tahoma, sans-serif; }
@@ -482,7 +486,7 @@
   .footer .footer-bottom {
     width: 100%;
     max-width: 1580px;
-    margin: 0 auto; }
+    margin: 0 auto 30px auto; }
     .footer .footer-bottom .copyright {
       margin: 20px auto 0 auto;
       font-family: Roboto, Tahoma, sans-serif;
@@ -652,7 +656,21 @@
         width: 100%;
         max-width: 400px; }
   .contact_form_2 {
-    height: auto; } }
+    height: auto; }
+  .section_6 {
+    height: auto; }
+  .green_block {
+    height: auto; }
+    .green_block .items_container {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .green_block .items_container .item {
+        margin: 20px 10px; } }
 
 @media (max-width: 540px) {
   .section_2 {
