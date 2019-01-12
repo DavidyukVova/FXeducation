@@ -258,8 +258,6 @@
             .section_3 .items_container .item .bottom_content .btn_block .btn_no_bg:focus, .section_3 .items_container .item .bottom_content .btn_block .btn_no_bg:active {
               background-color: #4cbd74;
               color: #ffffff; }
-    .section_3 .items_container .item2 .top_content {
-      background-color: #4cbd74; }
 
 .section_4 {
   width: 100%;
@@ -314,6 +312,9 @@
       .section_5 .live_data_block .controls_block .btn_control {
         margin: 10px;
         font-family: Roboto-Light, Tahoma, sans-serif;
+        text-transform: uppercase;
+        width: 100%;
+        max-width: 116px;
         font-size: 20px;
         padding: 5px 20px;
         border: none;
@@ -525,6 +526,13 @@
       .section_3 .items_container .item .bottom_content .list_container {
         height: 150px; } }
 
+@media (max-width: 1300px) {
+  .section_5 .live_data_block .controls_block {
+    margin: 20px 0; }
+    .section_5 .live_data_block .controls_block .btn_control {
+      font-size: 18px;
+      margin: 10px 5px; } }
+
 @media (max-width: 1226px) {
   .contact_form .sl .title_block h2 {
     background-color: inherit; }
@@ -545,9 +553,17 @@
     font-size: 26px; }
   .header .menu_block .menu li a {
     font-size: 20px;
-    margin: 0 15px; } }
+    margin: 0 15px; }
+  .section_5 .live_data_block .controls_block {
+    margin: 20px 0;
+    text-align: center; }
+    .section_5 .live_data_block .controls_block .btn_control {
+      max-width: 90px;
+      padding: 5px 8px; } }
 
 @media (max-width: 991px) {
+  body p {
+    font-size: 26px; }
   .header .menu_block .menu li a {
     font-size: 18px;
     margin: 0 10px; }
@@ -608,6 +624,10 @@
         max-width: 150px; } }
 
 @media (max-width: 768px) {
+  body h2 {
+    font-size: 46px; }
+  body p {
+    font-size: 24px; }
   .header .burger_block {
     text-align: right;
     display: block;
@@ -684,6 +704,9 @@
     margin-bottom: 20px; }
   .section_6 {
     height: auto; }
+    .section_6 .text_block .content_container {
+      margin-top: 50px;
+      margin-bottom: 30px; }
   .green_block {
     height: auto; }
     .green_block .items_container {
@@ -698,9 +721,14 @@
         margin: 20px 10px; } }
 
 @media (max-width: 540px) {
+  body h2 {
+    font-size: 40px; }
+  body p {
+    font-size: 22px; }
   .section_2 {
     height: auto; }
     .section_2 .content {
+      margin-top: 55px;
       margin-bottom: 50px; }
       .section_2 .content ul {
         margin: 40px 0 40px 0;
@@ -709,7 +737,9 @@
           padding-left: 10px; }
   .section_3 .items_container .item {
     width: 100%;
-    max-width: 300px; } }
+    max-width: 300px; }
+  .footer .footer-bottom .copyright {
+    text-align: center; } }
 
 @media (max-width: 420px) {
   .section_3 .items_container .item {

@@ -11,19 +11,36 @@ $(document).ready(function(){
                 container.toggleClass('active_menu');
             });
         }
+
     });
     //slider modal
-    var form = $('.form_container');
+    var form = $(".form_container");
 
     $(document).mouseup(function (e) {
 
-        if(form.has(e.target).length === 0 ) {
+        if(!form.is(e.target) && form.has(e.target).length === 0 ) {
             form.removeClass('active_modal');
             $('.btn_modal_form').click(function () {
 
                 form.toggleClass('active_modal');
             });
         }
+    });
+    //hover for section_3
+    $('.item1').hover(function () {
+        $('.top_content1').css("background-color", "#4cbd74");
+    }, function () {
+        $('.top_content1').css("background-color", "#364c4d");
+    });
+    $('.item2').hover(function () {
+        $('.top_content2').css("background-color", "#4cbd74");
+    }, function () {
+        $('.top_content2').css("background-color", "#364c4d");
+    });
+    $('.item3').hover(function () {
+        $('.top_content3').css("background-color", "#4cbd74");
+    }, function () {
+        $('.top_content3').css("background-color", "#364c4d");
     });
     //bx slider
     $('.slider').bxSlider();
