@@ -42,6 +42,8 @@ $(document).ready(function(){
     }, function () {
         $('.top_content3').css("background-color", "#364c4d");
     });
+    //send email
+    $('.send_email_1').on('click', sendEmail);
     //bx slider
     $('.slider').bxSlider();
 });
@@ -60,4 +62,44 @@ btns.map(function (btn) {
         });
     });
 });
+function sendEmail() {
+    var name1 = $('#name1').val(),
+        email1 = $('#email1').val(),
+        address1 = $('#addres1').val(),
+        phone1 = $('#phone1').val(),
+        country1 = $('#country1').val();
+    if (name1!='' && email1!='' && address1!='' && phone1!='' && country1!='') {
+        $.post (
+            "core/mail.php",
+            {
+                "name1" : name1,
+                "email1" : email1,
+                "address1" : address1,
+                "phone1" : phone1,
+                "country1" : country1
+            },
+            function (data) {
+                if (data==1) {
+                    alert('Email sent!');
+                    name1.value.innerHTML = '';
+                    email1.value.innerHTML = '';
+                    address1.value.innerHTML = '';
+                    phone1.value.innerHTML = '';
+
+                }
+                else {
+                    alert('Repeat actions');
+                }
+            }
+        );
+        return false;
+    }
+    else {
+        alert('Field in all the fields!');
+    }
+    document.getElementById('name1').value = "";
+    document.getElementById('email1').value = "";
+    document.getElementById('address1').value = "";
+    document.getElementById('phone1').value = "";
+}
 

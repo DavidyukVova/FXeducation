@@ -7,7 +7,8 @@
     height: 50px; }
     .header .logo_block img {
       width: 100%;
-      max-width: 170px;
+      max-width: 65px;
+      height: 40px;
       -o-object-fit: cover;
          object-fit: cover; }
   .header .burger_block {
