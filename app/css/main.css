@@ -84,11 +84,16 @@
 
 .contact_form .sl {
   height: 850px; }
+  .contact_form .sl .logo_block {
+    margin-top: 60px; }
+    .contact_form .sl .logo_block img {
+      width: 30%;
+      margin: 0 auto; }
   .contact_form .sl .form_container {
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
-    margin-top: 210px;
+    margin-top: 60px;
     text-align: center; }
     .contact_form .sl .form_container h3 {
       font-family: Roboto-Black, Tahoma, sans-serif;
