@@ -14,15 +14,15 @@ $(document).ready(function(){
 
     });
     //slider modal
-    var form = $(".form_container");
+    var form_main = $(".form_container");
 
     $(document).mouseup(function (e) {
 
-        if(!form.is(e.target) && form.has(e.target).length === 0 ) {
-            form.removeClass('active_modal');
+        if(!form_main.is(e.target) && form_main.has(e.target).length === 0 ) {
+            form_main.removeClass('active_modal');
             $('.btn_modal_form').click(function () {
 
-                form.toggleClass('active_modal');
+                form_main.toggleClass('active_modal');
             });
         }
     });
