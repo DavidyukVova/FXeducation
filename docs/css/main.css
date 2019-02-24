@@ -160,7 +160,8 @@
   max-width: 1920px;
   height: 775px;
   background: url("../img/siction_2_bg.jpg") no-repeat right;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
   .section_2 .content {
     margin-top: 125px;
     margin-left: 150px; }
@@ -180,13 +181,62 @@
         max-width: 290px;
         height: 60px;
         text-transform: uppercase; }
+  .section_2 .modal_wrap {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_2 .modal_wrap .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_2 .modal_wrap .modal_body .close {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_2 .modal_wrap .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_2 .modal_wrap .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_2 .modal_wrap .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_2 .modal_wrap .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_2 .active_modal {
+    display: block; }
 
 .section_3 {
   width: 100%;
   max-width: 1920px;
   height: 770px;
   background: url("../img/section_3_bg.jpg") no-repeat top;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
   .section_3 .items_container {
     width: 100%;
     max-width: 1580px;
@@ -210,6 +260,8 @@
         background-color: #364c4d;
         color: #ffffff;
         padding: 45px 50px;
+        height: auto;
+        min-height: 195px;
         position: relative; }
         .section_3 .items_container .item .top_content:after {
           content: '';
@@ -265,6 +317,54 @@
             .section_3 .items_container .item .bottom_content .btn_block .btn_no_bg:focus, .section_3 .items_container .item .bottom_content .btn_block .btn_no_bg:active {
               background-color: #4cbd74;
               color: #ffffff; }
+  .section_3 .modal_wrap_2 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_3 .modal_wrap_2 .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_3 .modal_wrap_2 .modal_body .close_modal {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_3 .modal_wrap_2 .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_3 .modal_wrap_2 .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_3 .modal_wrap_2 .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_3 .modal_wrap_2 .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_3 .active_modal_next {
+    display: block; }
 
 .section_4 {
   width: 100%;

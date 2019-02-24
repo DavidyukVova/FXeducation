@@ -22,10 +22,11 @@
                     <div class="burger_block"><img class="burger_btn" src="img/burger_menu.png" alt=""></div>
                     <div class="menu_block">
                         <ul class="menu">
-                            <li><a href="#">about us</a></li>
-                            <li><a href="#">membership</a></li>
-                            <li><a href="#">coaching</a></li>
-                            <li><a href="#">english</a></li>
+                            <li><a href="#one" class="bottomLink">Coaching</a></li>
+                            <li><a href="#two" class="bottomLink">Data Center</a></li>
+                            <li><a href="#three" class="bottomLink">About Us</a></li>
+                            <li><a href="#four" class="bottomLink">Membership</a></li>
+                            <li><a href="#five" class="bottomLink">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -604,25 +605,37 @@
             </div>
         </div>
     </div>
-    <div class="section_2">
+    <div class="section_2" id="one">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="content">
                         <h2>One-to-One Forex Coaching</h2>
-                        <p>We will teach you how to work in the financial markets
-                            and invest
-                        </p>
+                        <p>We will teach you how to navigate the markets are trade intelligently</p>
                         <ul>
                             <li>Basic concepts of the currency market</li>
-                            <li>How to open and close positions</li>
-                            <li>How to effectively manage your capital</li>
-                            <li>Using of the advanced traiding tools</li>
-                            <li>Modern ways of investing</li>
+                            <li>Analyze charts with confidence</li>
+                            <li>Gain an edge with unique order placement</li>
+                            <li>Advanced trading tools the modern investor must know</li>
+                            <li>Gain insight into indicators large hedge fund traders use daily</li>
                         </ul>
                         <div class="btn_block">
-                            <button class="btn btn_for_coaching">Free Lessons</button>
+                            <a href="#modal"><button class="btn btn_for_coaching" id="modal_btn">Free Lessons</button></a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal_wrap" id="modal">
+            <div class="modal_body">
+                <div class="close"><img src="./img/close.png" alt="close"></div>
+                <div class="modal_text">
+                    <h3>Lorem ipsum dolor.</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Phone number" required>
+                    <div class="btn_block">
+                        <button class="btn btn_for_modal_form">Join now</button>
                     </div>
                 </div>
             </div>
@@ -650,7 +663,7 @@
                                     </ul>
                                 </div>
                                 <div class="btn_block">
-                                    <button class="btn_no_bg">learn more</button>
+                                    <a href="#modal_2"><button class="btn_no_bg" id="modal_btn_free">FREE</button></a>
                                 </div>
                             </div>
                         </div>
@@ -671,14 +684,14 @@
                                     </ul>
                                 </div>
                                 <div class="btn_block">
-                                    <button class="btn_no_bg">learn more</button>
+                                    <a href="#modal_2"><button class="btn_no_bg" id="modal_btn_299">$299</button></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item item3">
                             <div class="top_content top_content3">
                                 <p class="title">Professional</p>
-                                <p class="description">master the specific trading skills, develop strategies and improv the risk management.</p>
+                                <p class="description">master the specific trading skills, develop strategies and improve the risk management</p>
                             </div>
                             <div class="bottom_content">
                                 <div class="list_container">
@@ -692,7 +705,7 @@
                                     </ul>
                                 </div>
                                 <div class="btn_block">
-                                    <button class="btn_no_bg">learn more</button>
+                                    <a href="#modal_2"><button class="btn_no_bg" id="modal_btn_999">$999</button></a>
                                 </div>
                             </div>
                         </div>
@@ -700,8 +713,22 @@
                 </div>
             </div>
         </div>
+        <div class="modal_wrap_2" id="modal_2">
+            <div class="modal_body">
+                <div class="close_modal"><img src="./img/close.png" alt="close"></div>
+                <div class="modal_text">
+                    <h3>Lorem ipsum dolor.</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Phone number" required>
+                    <div class="btn_block">
+                        <button class="btn btn_for_modal_form">Join now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="section_4">
+    <div class="section_4" id="two">
         <div class="container-fluid">
             <div class="traiding_instrument_block">
                 <div class="row no-gutters">
@@ -847,7 +874,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                        <h2>traiding instruments</h2>
+                        <h2>TRADING INSTRUMENTS</h2>
                         <div class="items_container">
                             <div class="item item1">
                                 <div class="img_container"><img src="./img/commodities_icon.png" alt="Commodities Trading"></div>
@@ -1004,7 +1031,7 @@
             </div>
         </div>
     </div>
-    <div class="section_6">
+    <div class="section_6" id="three">
         <div class="container-fluid">
             <div class="text_block">
                 <div class="row no-gutters">
@@ -1049,7 +1076,7 @@
             </div>
         </div>
     </div>
-    <div class="section_8">
+    <div class="section_8" id="four">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="text_container">
@@ -1063,14 +1090,14 @@
             </div>
         </div>
     </div>
-    <div class="contact_form_2">
+    <div class="contact_form_2" id="five">
         <div class="container-fluid">
             <div class="content_block">
                 <div class="row no-gutters">
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-7">
                         <div class="item item1">
                             <p class="title">Customer service:</p>
-                            <p class="description">Available from Monday-Friday between 8:30-17:30.</p>
+                            <p class="description">24 Hours Per Day Monday - Friday</p>
                         </div>
                         <div class="item item2">
                             <p class="title">Head office:</p>
@@ -1078,7 +1105,7 @@
                         </div>
                         <div class="item item3">
                             <p class="title">International contact information:</p>
-                            <p class="description"><a href="tel:+448000465424" class="phone">+448000465424</a></p>
+                            <p class="description"><a href="tel:0012019363156" class="phone">001-201-936-3156</a></p>
                         </div>
                         <div class="item item4">
                             <p class="title">Contact us via Email:</p>

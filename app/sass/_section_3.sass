@@ -4,6 +4,7 @@
   height: 770px
   background: url("../img/section_3_bg.jpg") no-repeat top
   background-color: #fff
+  position: relative
   .items_container
     width: 100%
     max-width: 1580px
@@ -20,6 +21,8 @@
         background-color: #364c4d
         color: #ffffff
         padding: 45px 50px
+        height: auto
+        min-height: 195px
         position: relative
         &:after
           content: ''
@@ -75,3 +78,51 @@
             &:active
               background-color: #4cbd74
               color: #ffffff
+  .modal_wrap_2
+    display: none
+    position: absolute
+    top: 10px
+    left: 0
+    right: 0
+    margin: 0 auto
+    .modal_body
+      width: 100%
+      max-width: 600px
+      height: auto
+      padding: 50px 30px
+      background-color: #ffffff
+      position: absolute
+      top: 10px
+      left: 0
+      right: 0
+      margin: 50px auto 0 auto
+      z-index: 9999999
+      box-shadow: 0 17px 50px 23px rgba(76,189,116,1)
+      .close_modal
+        color: red
+        font-size: 40px
+        position: absolute
+        top: 10px
+        right: 20px
+        cursor: pointer
+      .modal_text
+        h3
+          font-size: 22px
+          text-align: center
+        input
+          display: block
+          margin: 10px auto
+          padding: 10px 20px
+          width: 100%
+          max-width: 400px
+          font-size: 20px
+        .btn_block
+          margin: 20px auto
+          text-align: center
+          .btn_for_modal_form
+            width: 100%
+            max-width: 250px
+            text-transform: uppercase
+            padding: 5px
+  .active_modal_next
+    display: block
