@@ -579,6 +579,9 @@
       margin: 65px 0; }
       .contact_form_2 .content_block .item:nth-child(1) {
         margin-top: 0; }
+    .contact_form_2 .content_block .border {
+      border: 2px solid #4cbd74;
+      padding: 10px 20px; }
 
 .footer {
   width: 100%;
