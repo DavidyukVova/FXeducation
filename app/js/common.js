@@ -48,6 +48,9 @@ $(document).ready(function(){
     //form modal
     var form = $(".modal_wrap");
     var form2 = $(".modal_wrap_2");
+    var form299 = $(".modal_wrap_299");
+    var form999 = $(".modal_wrap_999");
+    var form3 = $(".modal_wrap_3");
 
     $(document).mouseup(function (e) {
 
@@ -74,18 +77,49 @@ $(document).ready(function(){
                 form2.removeClass('active_modal_next');
             });
             document.getElementById('modal_btn_299').onclick = function() {
-                form2.toggleClass('active_modal_next');
+                form299.toggleClass('active_modal_next');
+            };
+        }
+    });
+
+    // 299
+    $(document).mouseup(function (e) {
+
+        if(!form299.is(e.target) && form299.has(e.target).length === 0 ) {
+            form299.removeClass('active_modal_next');
+            document.getElementById('modal_btn_299').onclick = function() {
+                form299.toggleClass('active_modal_next');
             };
             $('.close_modal').click(function () {
 
-                form2.removeClass('active_modal_next');
+                form299.removeClass('active_modal_next');
             });
+        }
+    });
+    // 999
+    $(document).mouseup(function (e) {
+
+        if(!form999.is(e.target) && form999.has(e.target).length === 0 ) {
+            form999.removeClass('active_modal_next');
             document.getElementById('modal_btn_999').onclick = function() {
-                form2.toggleClass('active_modal_next');
+                form999.toggleClass('active_modal_next');
             };
             $('.close_modal').click(function () {
 
-                form2.removeClass('active_modal_next');
+                form999.removeClass('active_modal_next');
+            });
+        }
+    });
+    $(document).mouseup(function (e) {
+
+        if(!form3.is(e.target) && form3.has(e.target).length === 0 ) {
+            form3.removeClass('active_modal_s8');
+            document.getElementById('modal_btn_3').onclick = function() {
+                form3.toggleClass('active_modal_s8');
+            };
+            $('.close').click(function () {
+
+                form3.removeClass('active_modal_s8');
             });
         }
     });

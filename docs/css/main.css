@@ -235,6 +235,60 @@
           padding: 5px; }
   .section_2 .active_modal {
     display: block; }
+  .section_2 .modal_wrap {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_2 .modal_wrap .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_2 .modal_wrap .modal_body .close {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_2 .modal_wrap .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_2 .modal_wrap .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_2 .modal_wrap .modal_body .modal_text .bottom_text {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
+        font-size: 18px;
+        text-align: center; }
+      .section_2 .modal_wrap .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_2 .modal_wrap .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_2 .active_modal {
+    display: block; }
 
 .section_3 {
   width: 100%;
@@ -371,6 +425,102 @@
           padding: 5px; }
   .section_3 .active_modal_next {
     display: block; }
+  .section_3 .modal_wrap_299 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_3 .modal_wrap_299 .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_3 .modal_wrap_299 .modal_body .close_modal {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_3 .modal_wrap_299 .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_3 .modal_wrap_299 .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_3 .modal_wrap_299 .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_3 .modal_wrap_299 .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_3 .active_modal_next {
+    display: block; }
+  .section_3 .modal_wrap_999 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_3 .modal_wrap_999 .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_3 .modal_wrap_999 .modal_body .close_modal {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_3 .modal_wrap_999 .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_3 .modal_wrap_999 .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_3 .modal_wrap_999 .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_3 .modal_wrap_999 .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_3 .active_modal_next {
+    display: block; }
 
 .section_4 {
   width: 100%;
@@ -499,7 +649,8 @@
   height: 897px;
   background: url("../img/section_8_bg.jpg") no-repeat;
   -webkit-background-size: cover;
-          background-size: cover; }
+          background-size: cover;
+  position: relative; }
   .section_8 .text_container {
     width: 100%;
     max-width: 1580px;
@@ -514,6 +665,60 @@
           max-width: 260px;
           height: 50px;
           text-transform: uppercase; }
+  .section_8 .modal_wrap_3 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .section_8 .modal_wrap_3 .modal_body {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      padding: 50px 30px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      margin: 50px auto 0 auto;
+      z-index: 9999999;
+      -webkit-box-shadow: 0 17px 50px 23px #4cbd74;
+              box-shadow: 0 17px 50px 23px #4cbd74; }
+      .section_8 .modal_wrap_3 .modal_body .close {
+        color: red;
+        font-size: 40px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; }
+      .section_8 .modal_wrap_3 .modal_body .modal_text h3 {
+        font-size: 22px;
+        text-align: center; }
+      .section_8 .modal_wrap_3 .modal_body .modal_text input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px; }
+      .section_8 .modal_wrap_3 .modal_body .modal_text .bottom_text {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
+        font-size: 18px;
+        text-align: center; }
+      .section_8 .modal_wrap_3 .modal_body .modal_text .btn_block {
+        margin: 20px auto;
+        text-align: center; }
+        .section_8 .modal_wrap_3 .modal_body .modal_text .btn_block .btn_for_modal_form {
+          width: 100%;
+          max-width: 250px;
+          text-transform: uppercase;
+          padding: 5px; }
+  .section_8 .active_modal_s8 {
+    display: block; }
 
 .contact_form_2 {
   width: 100%;
