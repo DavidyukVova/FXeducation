@@ -849,7 +849,7 @@
     .section_3 .items_container .item .bottom_content {
       margin-bottom: 40px; }
       .section_3 .items_container .item .bottom_content .list_container {
-        height: 150px; } }
+        height: 180px; } }
 
 @media (max-width: 1300px) {
   .section_5 .live_data_block .controls_block {
@@ -901,6 +901,8 @@
     .section_3 .items_container .item .top_content {
       padding: 45px 10px;
       height: 210px; }
+    .section_3 .items_container .item .bottom_content .list_container {
+      height: 235px; }
   .section_4 {
     height: auto; }
     .section_4 .traiding_instrument_block .widget_block {
@@ -944,7 +946,7 @@
     .section_3 .items_container .item .bottom_content {
       margin-bottom: 40px; }
       .section_3 .items_container .item .bottom_content .list_container {
-        height: 220px; }
+        height: 240px; }
       .section_3 .items_container .item .bottom_content .btn_block .btn_no_bg {
         max-width: 150px; } }
 
@@ -1006,7 +1008,7 @@
   .section_3 {
     height: auto; }
     .section_3 .items_container {
-      height: 1900px;
+      min-height: 1900px;
       margin-bottom: 50px;
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
@@ -1024,6 +1026,10 @@
       .section_3 .items_container .item {
         width: 100%;
         max-width: 400px; }
+        .section_3 .items_container .item .bottom_content {
+          margin-bottom: 20px; }
+          .section_3 .items_container .item .bottom_content .list_container {
+            height: 170px; }
   .contact_form_2 {
     height: auto;
     margin-bottom: 20px; }
@@ -1063,6 +1069,10 @@
   .section_3 .items_container .item {
     width: 100%;
     max-width: 300px; }
+    .section_3 .items_container .item .bottom_content {
+      margin-bottom: 20px; }
+      .section_3 .items_container .item .bottom_content .list_container {
+        height: 240px; }
   .footer .footer-bottom .copyright {
     text-align: center; } }
 
